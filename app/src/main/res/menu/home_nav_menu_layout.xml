@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/suppliers_id"
+            android:title="Suppliers"
+            android:icon="@drawable/ic_local_shipping_black_24dp" />
+        <item
+            android:id="@+id/products_id"
+            android:title="Products"
+            android:icon="@drawable/ic_work_black_24dp" />
+        <item
+            android:id="@+id/purchases_id"
+            android:title="Purchases"
+            android:icon="@drawable/ic_local_grocery_store_black_24dp" />
+        <item
+            android:id="@+id/customers_id"
+            android:title="Customers"
+            android:icon="@drawable/ic_people_black_24dp" />
+        <item
+            android:id="@+id/sales_id"
+            android:title="Sales"
+            android:icon="@drawable/ic_attach_money_black_24dp" />
+    </group>
+
+    <item android:title="Admin Panel">
+        <menu>
+            <item
+                android:id="@+id/profiles_id"
+                android:title="Company Profiles"
+                android:icon="@drawable/ic_account_box_black_24dp" />
+            <item
+                android:id="@+id/users_id"
+                android:title="User"
+                android:icon="@drawable/ic_people_black_24dp" />
+            <item
+                android:id="@+id/about_id"
+                android:title="About"
+                android:icon="@drawable/ic_info_black_24dp" />
+            <item
+                android:id="@+id/log_out"
+                android:title="Log Out"
+                android:icon="@drawable/ic_exit_to_app_black_24dp" />
+        </menu>
+    </item>
+
+    <!--<group>
+        <item
+            android:fontFamily="@font/social_media_font"
+            android:title="f"
+            android:textColor="@color/dark_grey_color"
+            android:textSize="50sp"/>
+        <item
+            android:fontFamily="@font/social_media_font"
+            android:title="t"
+            android:textColor="@color/dark_grey_color"
+            android:textSize="50sp"/>
+        <item
+            android:fontFamily="@font/social_media_font"
+            android:title="y"
+            android:textColor="@color/dark_grey_color"
+            android:textSize="50sp"/>
+    </group>-->
+</menu>
